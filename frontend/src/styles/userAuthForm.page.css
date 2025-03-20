@@ -1,0 +1,46 @@
+.form .sing-in-button {
+    margin-top: var(--spacing-3);
+    min-width: 150px;
+    padding: var(--spacing-1) var(--spacing-5);
+}
+
+.form .google-sing-in {
+    margin-top: 35px;
+}
+
+.form .sing-in-button .google-icon {
+    position: relative;
+    top: -2px;
+    width: 18px;
+    margin-right: var(--spacing-2);
+}
+
+.sing-in-button:hover {
+    background-color: gray;
+}
+
+.redirect-link {
+    margin-top: 15px;
+}
+
+.error-list {
+    margin: 15px 0px 0px 0px;
+    color: red;
+}
+
+.form {
+    text-align: center;
+    align-items: center;
+
+
+}
+
+html {
+    height: 100vh;
+    text-align: center;
+}
+
+.home-button {
+    text-align: left;
+    align-items: start;
+}
