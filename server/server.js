@@ -127,7 +127,7 @@ server.post("/signup", (req, res) => {
     })
       .catch(err => {
         if (err.code === 11000) {
-          return res.status(500).json({ "error": "Email already" })
+          return res.status(500).json({ "error": "Email already !" })
         }
       })
   })
